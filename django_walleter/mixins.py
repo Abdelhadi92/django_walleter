@@ -1,5 +1,5 @@
-from django_wallet.models import Wallet
-from django_wallet.services import verify_withdraw, deposit, force_withdraw, force_transfer
+from django_walleter.models import Wallet
+from django_walleter.services import verify_withdraw, deposit, force_withdraw, force_transfer
 
 
 class HasWallet:

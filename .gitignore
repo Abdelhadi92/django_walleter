@@ -9,6 +9,9 @@ mm.pyc
 
 # pycharm project files
 .idea
+build
+dist
+django_walleter.egg-info
 
 # Mac DS_Store Files
 .DS_Store

@@ -1,6 +1,5 @@
-from django_wallet import exceptions
-from django_wallet.mixins import HasWallet
-from django_wallet.models import Transaction
+from django_walleter import exceptions
+from django_walleter.models import Transaction
 
 
 def check_amount(amount):
@@ -14,6 +13,7 @@ def verify_withdraw(holder, amount):
 
 
 def get_wallet(wallet):
+    from django_walleter.mixins import HasWallet
     if isinstance(wallet, HasWallet):
         wallet = wallet.wallet
     return wallet

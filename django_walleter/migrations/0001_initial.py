@@ -36,11 +36,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='transaction',
             name='from_wallet',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='from_wallet', to='django_wallet.Wallet'),
+            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='from_wallet', to='django_walleter.Wallet'),
         ),
         migrations.AddField(
             model_name='transaction',
             name='to_wallet',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='to_wallet', to='django_wallet.Wallet'),
+            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='to_wallet', to='django_walleter.Wallet'),
         ),
     ]

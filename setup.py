@@ -2,17 +2,18 @@ import os
 
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '1.0'
 
 base_dir = os.path.dirname(__file__)
 
 
 setup(
-      name='django_wallet',
+      name='django-walleter',
       version=version,
       description='Django wallet',
       long_description=open(os.path.join(base_dir, "README.md")).read(),
-      url='https://github.com/Abdelhadi92/django_wallet',
+      long_description_content_type="text/markdown",
+      url='https://github.com/Abdelhadi92/django_walleter',
       classifiers=[
           'Environment :: Web Environment',
           'Framework :: Django',
@@ -26,7 +27,7 @@ setup(
           'Programming Language :: Python :: 3.6',
           'Programming Language :: Python :: 3.7',
       ],
-      keywords='Django wallet',
+      keywords='Django wallet walleter',
       author='Abdelhadi Abu-Shamleh',
       author_email='abushamleh92@gmail.com',
       license='BSD',
