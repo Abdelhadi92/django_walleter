@@ -1,5 +1,5 @@
 
-# Sitech Django Wallet
+# Django Wallet
 
 
 ## Installation

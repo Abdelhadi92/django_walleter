@@ -10,7 +10,7 @@ base_dir = os.path.dirname(__file__)
 setup(
       name='django_wallet',
       version=version,
-      description='Sitech django wallet',
+      description='Django wallet',
       long_description=open(os.path.join(base_dir, "README.md")).read(),
       url='https://github.com/Abdelhadi92/django_wallet',
       classifiers=[
@@ -26,9 +26,9 @@ setup(
           'Programming Language :: Python :: 3.6',
           'Programming Language :: Python :: 3.7',
       ],
-      keywords='Sitech Django wallet',
+      keywords='Django wallet',
       author='Abdelhadi Abu-Shamleh',
-      author_email='a.abushamleh@sit-mena.com',
+      author_email='abushamleh92@gmail.com',
       license='BSD',
       packages=find_packages(exclude=['ez_setup']),
       include_package_data=True,
