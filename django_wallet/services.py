@@ -1,5 +1,6 @@
-from sitech_wallet import exceptions
-from sitech_wallet.models import Transaction
+from django_wallet import exceptions
+from django_wallet.mixins import HasWallet
+from django_wallet.models import Transaction
 
 
 def check_amount(amount):

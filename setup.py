@@ -1,5 +1,6 @@
-from setuptools import setup, find_packages
 import os
+
+from setuptools import setup, find_packages
 
 version = '0.1'
 
@@ -7,11 +8,11 @@ base_dir = os.path.dirname(__file__)
 
 
 setup(
-      name='sitech-django-wallet',
+      name='django_wallet',
       version=version,
       description='Sitech django wallet',
       long_description=open(os.path.join(base_dir, "README.md")).read(),
-      url='https://github.com/sitmena/sitech-django-audit_log',
+      url='https://github.com/Abdelhadi92/django_wallet',
       classifiers=[
           'Environment :: Web Environment',
           'Framework :: Django',
